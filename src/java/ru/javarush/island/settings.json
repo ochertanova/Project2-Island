@@ -1,0 +1,179 @@
+{
+  "length": 3,
+  "width": 2,
+  "plant": {
+    "maxCountOnPosition": 200
+  },
+  "animals": [
+    {
+      "name": "WOLF",
+      "weight": 50,
+      "maxCountOnThisAnimal": 30,
+      "speed": 3,
+      "saturation": 8,
+      "emoji": "\uD83D\uDC3A",
+      "chanceToEat": {
+        "horse": 10,
+        "deer": 15,
+        "rabbit": 60,
+        "mouse": 80,
+        "nanny": 60,
+        "sheep": 70
+      }
+    },
+    {
+      "name": "BOA",
+      "weight": 15,
+      "maxCountOnThisAnimal": 30,
+      "speed": 1,
+      "saturation": 3,
+      "emoji": "\uD83D\uDC0D",
+      "chanceToEat": {
+        "fox": 15,
+        "rabbit": 20,
+        "mouse": 40
+      }
+    },
+    {
+      "name": "FOX",
+      "weight": 8,
+      "maxCountOnThisAnimal": 30,
+      "speed": 2,
+      "saturation": 2,
+      "emoji": "\uD83E\uDD8A",
+      "chanceToEat": {
+        "rabbit": 70,
+        "mouse": 90
+      }
+    },
+    {
+      "name": "BEAR",
+      "weight": 500,
+      "maxCountOnThisAnimal": 5,
+      "speed": 2,
+      "saturation": 80,
+      "emoji": "\uD83D\uDC3B",
+      "chanceToEat": {
+        "boa": 80,
+        "horse": 40,
+        "deer": 80,
+        "rabbit": 80,
+        "mouse": 90,
+        "nanny": 70,
+        "sheep": 70
+      }
+    },
+    {
+      "name": "EAGLE",
+      "weight": 6,
+      "maxCountOnThisAnimal": 20,
+      "speed": 3,
+      "saturation": 1,
+      "emoji": "\uD83E\uDD85",
+      "chanceToEat": {
+        "fox": 10,
+        "rabbit": 90,
+        "mouse": 90
+      }
+    },
+    {
+      "name": "HORSE",
+      "weight": 400,
+      "maxCountOnThisAnimal": 20,
+      "speed": 4,
+      "saturation": 60,
+      "emoji": "\uD83D\uDC0E",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "DEER",
+      "weight": 300,
+      "maxCountOnThisAnimal": 20,
+      "speed": 4,
+      "saturation": 50,
+      "emoji": "\uD83E\uDD8C",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "RABBIT",
+      "weight": 2,
+      "maxCountOnThisAnimal": 150,
+      "speed": 2,
+      "saturation": 0.45,
+      "emoji": "\uD83D\uDC07"
+    },
+    {
+      "name": "MOUSE",
+      "weight": 0.05,
+      "maxCountOnThisAnimal": 500,
+      "speed": 1,
+      "saturation": 0.01,
+      "emoji": "\uD83D\uDC2D",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "NANNY",
+      "weight": 60,
+      "maxCountOnThisAnimal": 140,
+      "speed": 3,
+      "saturation": 10,
+      "emoji": "\uD83D\uDC10",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "SHEEP",
+      "weight": 70,
+      "maxCountOnThisAnimal": 140,
+      "speed": 3,
+      "saturation": 15,
+      "emoji": "\uD83D\uDC11",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "BOAR",
+      "weight": 400,
+      "maxCountOnThisAnimal": 50,
+      "speed": 2,
+      "saturation": 50,
+      "emoji": "\uD83D\uDC17",
+      "chanceToEat": {
+        "mouse": 50
+      }
+    },
+    {
+      "name": "BUFFALO",
+      "weight": 700,
+      "maxCountOnThisAnimal": 10,
+      "speed": 3,
+      "saturation": 100,
+      "emoji": "\uD83D\uDC03",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "DUCK",
+      "weight": 1,
+      "maxCountOnThisAnimal": 200,
+      "speed": 4,
+      "saturation": 0.15,
+      "emoji": "\uD83E\uDD86",
+      "chanceToEat": {
+      }
+    },
+    {
+      "name": "CATERPILLAR",
+      "weight": 0.01,
+      "maxCountOnThisAnimal": 1000,
+      "speed": 0,
+      "saturation": 0,
+      "emoji": "\uD83D\uDC1B",
+      "chanceToEat": {
+      }
+    }
+  ]
+}
