@@ -11,7 +11,7 @@ public class AnimalCharacteristics {
     private int speed;
     private int saturation;
     private String emoji;
-    private Map<String, Integer> chanceToEat;
+    private Map<AnimalTypes, Integer> chanceToEat;
 
     public void setName(AnimalTypes name) {
         this.name = name;
@@ -37,7 +37,7 @@ public class AnimalCharacteristics {
         this.emoji = emoji;
     }
 
-    public void setChanceToEat(Map<String, Integer> chanceToEat) {
+    public void setChanceToEat(Map<AnimalTypes, Integer> chanceToEat) {
         this.chanceToEat = chanceToEat;
     }
 
@@ -65,7 +65,7 @@ public class AnimalCharacteristics {
         return emoji;
     }
 
-    public Map<String, Integer> getChanceToEat() {
+    public Map<AnimalTypes, Integer> getChanceToEat() {
         return chanceToEat;
     }
 }

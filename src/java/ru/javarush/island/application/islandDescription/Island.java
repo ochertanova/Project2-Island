@@ -9,11 +9,22 @@ public class Island {
     private int length;
     private Position[][] positions;
 
+    public int getWidth() {
+        return width;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public Position[][] getPositions() {
+        return positions;
+    }
+
     public Island(int width, int length) {
         this.width = width;
         this.length = length;
     }
-
 
     public Position[][] createIsland() {
         positions = new Position[width][length];
@@ -33,7 +44,7 @@ public class Island {
         return "Island{" +
                 "width=" + width +
                 ", length=" + length +
-                ", positions=" + Arrays.toString(positions) +
+                ", positions=" + Arrays.deepToString(positions) +
                 '}';
     }
 }

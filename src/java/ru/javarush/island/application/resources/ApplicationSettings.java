@@ -3,6 +3,7 @@ package ru.javarush.island.application.resources;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
@@ -21,6 +22,10 @@ public class ApplicationSettings {
 
     public Settings getSettings(String fileNameSettings)  {
         try {
+            URL set=getClass()
+                    .getClassLoader()
+                    .getResource("settings.json");
+
             settings = objectMapper.readValue(Files.newBufferedReader(Path.of(fileNameSettings)), Settings.class);
         } catch (IOException e) {
             e.printStackTrace();

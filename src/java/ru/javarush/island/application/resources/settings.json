@@ -1,6 +1,6 @@
 {
-  "length": 3,
-  "width": 2,
+  "length": 2,
+  "width": 1,
   "plant": {
     "maxCountOnPosition": 200
   },
@@ -13,12 +13,12 @@
       "saturation": 8,
       "emoji": "\uD83D\uDC3A",
       "chanceToEat": {
-        "horse": 10,
-        "deer": 15,
-        "rabbit": 60,
-        "mouse": 80,
-        "nanny": 60,
-        "sheep": 70
+        "HORSE": 10,
+        "DEER": 15,
+        "RABBIT": 60,
+        "MOUSE": 80,
+        "NANNY": 60,
+        "SHEEP": 70
       }
     },
     {
@@ -29,9 +29,9 @@
       "saturation": 3,
       "emoji": "\uD83D\uDC0D",
       "chanceToEat": {
-        "fox": 15,
-        "rabbit": 20,
-        "mouse": 40
+        "FOX": 15,
+        "RABBIT": 20,
+        "MOUSE": 40
       }
     },
     {
@@ -42,8 +42,8 @@
       "saturation": 2,
       "emoji": "\uD83E\uDD8A",
       "chanceToEat": {
-        "rabbit": 70,
-        "mouse": 90
+        "RABBIT": 70,
+        "MOUSE": 90
       }
     },
     {
@@ -54,13 +54,13 @@
       "saturation": 80,
       "emoji": "\uD83D\uDC3B",
       "chanceToEat": {
-        "boa": 80,
-        "horse": 40,
-        "deer": 80,
-        "rabbit": 80,
-        "mouse": 90,
-        "nanny": 70,
-        "sheep": 70
+        "BOA": 80,
+        "HORSE": 40,
+        "DEER": 80,
+        "RABBIT": 80,
+        "MOUSE": 90,
+        "NANNY": 70,
+        "SHEEP": 70
       }
     },
     {
@@ -71,9 +71,9 @@
       "saturation": 1,
       "emoji": "\uD83E\uDD85",
       "chanceToEat": {
-        "fox": 10,
-        "rabbit": 90,
-        "mouse": 90
+        "FOX": 10,
+        "RABBIT": 90,
+        "MOUSE": 90
       }
     },
     {
@@ -102,7 +102,9 @@
       "maxCountOnThisAnimal": 150,
       "speed": 2,
       "saturation": 0.45,
-      "emoji": "\uD83D\uDC07"
+      "emoji": "\uD83D\uDC07",
+      "chanceToEat": {
+      }
     },
     {
       "name": "MOUSE",
@@ -142,7 +144,7 @@
       "saturation": 50,
       "emoji": "\uD83D\uDC17",
       "chanceToEat": {
-        "mouse": 50
+        "MOUSE": 50
       }
     },
     {
