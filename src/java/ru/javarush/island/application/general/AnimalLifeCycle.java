@@ -80,7 +80,6 @@ public class AnimalLifeCycle {
                 }
                 if ((animalsToEat.get(0).getClass()).isAnnotationPresent(Herbivore.class)) {
                     List<Herb> herbsOnPosition = herbOnIsland.get(position);
-
                     /*
                     Для травоядных животных примем вероятность "покушать" 50/50
                      */
@@ -100,8 +99,9 @@ public class AnimalLifeCycle {
         }
     }
 
-    /* Метод проверки кол-ва мертвых животных на острове
-     * */
+    /*
+    Метод проверки кол-ва мертвых животных на острове
+    */
     public void toDie() {
         for (Map.Entry<Position, List<List<Animal>>> entry : animalsOnIsland.entrySet()) {
             List<List<Animal>> animals = entry.getValue();
@@ -178,7 +178,6 @@ public class AnimalLifeCycle {
         randomDirection = (int) (Math.random() * countDirections.size());
         return countDirections.get(randomDirection);
     }
-
 
     private Position getNewPosition(Directions direction, Position position, int speed) {
         Position newPosition = position;

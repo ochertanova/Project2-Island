@@ -23,5 +23,4 @@ public enum Directions {
         return description;
     }
 
-
 }

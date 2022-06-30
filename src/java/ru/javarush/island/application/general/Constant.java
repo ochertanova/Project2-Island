@@ -6,5 +6,4 @@ public class Constant {
     public static final String BACK = "назад";
     public static final String LEFT = "налево";
     public static final String RIGHT = "направо";
-
 }

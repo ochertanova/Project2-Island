@@ -14,7 +14,5 @@ public class Main {
         GameManagement gameManagement = new GameManagement();
         gameManagement.startGame();
         gameManagement.play();
-
     }
-
 }

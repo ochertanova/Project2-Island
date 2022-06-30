@@ -17,7 +17,7 @@ public enum AnimalTypes {
     SHEEP("sheep", "овца"),
     BOAR("boar", "кабан"),
     DUCK("duck", "утка"),
-    MOUSE("mouse","мышь"),
+    MOUSE("mouse", "мышь"),
     CATERPILLAR("caterpillar", "гусеница"),
     BUFFALO("buffalo", "буйвол");
 
@@ -36,6 +36,4 @@ public enum AnimalTypes {
     public String getDescription() {
         return description;
     }
-
-
 }

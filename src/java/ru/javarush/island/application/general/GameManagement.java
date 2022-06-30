@@ -28,8 +28,10 @@ import ru.javarush.island.application.resources.PlantCharacteristics;
 import ru.javarush.island.application.resources.Settings;
 
 import java.lang.reflect.InvocationTargetException;
-import java.util.*;
-
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class GameManagement {
     private String fileNameSettings = "C://Users//username//IdeaProjects//Project2-Island//src//java//ru//javarush//island//application//resources//settings.json";

@@ -20,9 +20,9 @@ public class ApplicationSettings {
     //TODO: это на всякий случай пока оставила
     // JsonNode jsonNode = objectMapper.readTree(Files.newBufferedReader(Path.of(fileNameSettings)));
 
-    public Settings getSettings(String fileNameSettings)  {
+    public Settings getSettings(String fileNameSettings) {
         try {
-            URL set=getClass()
+            URL set = getClass()
                     .getClassLoader()
                     .getResource("settings.json");
 

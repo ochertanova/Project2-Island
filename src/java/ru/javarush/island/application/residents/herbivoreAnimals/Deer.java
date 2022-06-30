@@ -6,7 +6,6 @@ import ru.javarush.island.application.enums.AnimalTypes;
 import ru.javarush.island.application.residents.HerbivoreAnimal;
 import ru.javarush.island.application.residents.Position;
 
-
 @Herbivore
 @AnimalInfo(nameType = AnimalTypes.DEER, description = "олень")
 public class Deer extends HerbivoreAnimal {
